@@ -1,0 +1,112 @@
+body {
+    background-color: rgba(80, 127, 81, 0.967);
+}
+
+#centro {
+    margin: 0px auto;
+    padding: 40px;
+    width: 500px;
+}
+
+#titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 0px 30px;
+    width: 500px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px 0;
+    width: 80%;
+}
+
+.navbar ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+    text-decoration: none;
+    
+}
+
+.navbar ul li ::before {
+    background-color: white;
+    bottom: -12px;
+    content:"";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    transition: 0.4s ease-out;
+    width: 0%;
+    
+}
+
+.navbar ul li :hover::before {
+    width: 100%;
+}
+
+#parrafo2 {
+    color: rgb(255, 251, 251);
+    text-align: right;
+    
+}
+
+p {
+    text-align: justify;
+}
+
+.container2 {
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} 
+
+.navbar2{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px 0;
+    width: 80%;
+}
+
+#texto2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 30px;
+    width: 500px;
+}
+
+#informacion-principal {
+    color: white;
+    text-align: right;
+}
+
+
