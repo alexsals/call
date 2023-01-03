@@ -26,7 +26,7 @@ body {
 .container {
     background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg);
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -83,7 +83,7 @@ p {
 }
 
 .container2 {
-    background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw2/meta-images/reveal/mw2-reveal-meta-share.jpg);
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://fervilela.com/wp-content/uploads/2021/09/GarenaWorld.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -151,3 +151,56 @@ p {
 
 }
 
+.container3 {
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://store-images.s-microsoft.com/image/apps.27881.14284165171924425.328fdc67-fafc-4929-b10f-b1bc44a36c07.c0b3f5d8-f2b7-41db-9b1b-0c1ddb375729?q=90&w=480&h=270);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} 
+
+.navbar3{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px 0;
+    width: 80%;
+}
+
+.container4 {
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://i.ytimg.com/vi/LTcroV3w35U/maxresdefault.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} 
+
+.navbar4{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px 0;
+    width: 80%;
+}
+
+.container5 {
+    background-image: linear-gradient(rgba(5, 10, 5, 0.80),rgb(58, 118, 73)), url(https://static.13.cl/7/sites/default/files/esports/articulos/field-image/portadacoddd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} 
+
+.navbar5{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 35px 0;
+    width: 80%;
+}
